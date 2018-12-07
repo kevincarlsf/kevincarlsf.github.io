@@ -1,3 +1,4 @@
+
 .hidden.menu {
     display: none;
 }
@@ -310,6 +311,7 @@ i.icon.github:before{
 }
 
 @media only screen and (max-width: 583px) {
+    
     .ui.segment.mission {
         margin-top: 10px;
     }
