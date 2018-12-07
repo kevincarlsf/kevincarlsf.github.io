@@ -244,6 +244,10 @@ i.icon.github:before{
     margin-right: 14px;
 }
 
+.ui.relaxed.divided.list {
+    font-size: 1.3em;
+}
+
 @media only screen and (max-width: 976px) {
     .work-right {
         font-size: 1.5em;
@@ -358,7 +362,10 @@ i.icon.github:before{
         -webkit-box-shadow: none;
                 box-shadow: none;
     }
-
+    
+    .ui.relaxed.divided.list {
+        font-size: 1em;
+    }
 }
 
 /* mobile */
