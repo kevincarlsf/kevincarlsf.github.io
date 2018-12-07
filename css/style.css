@@ -399,7 +399,7 @@ i.icon.github:before{
         width:120px;
     }
     .web-skills {
-    flex-direction: column
+    flex-direction: column;
     }
 }
 
