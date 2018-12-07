@@ -398,6 +398,9 @@ i.icon.github:before{
         height: 100px;
         width:120px;
     }
+    .web-skills {
+    flex-direction: column
+    }
 }
 
 @media only screen and (min-width: 950px) {
