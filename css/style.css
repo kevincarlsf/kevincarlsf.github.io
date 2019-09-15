@@ -235,8 +235,6 @@ blockquote {
 .github {
     color: purple;
 }
-i.icon.instagram:before,
-i.icon.facebook:before,
 i.icon.github:before,
 i.icon.linkedin:before{
    font-size: 30px;
