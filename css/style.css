@@ -237,7 +237,8 @@ blockquote {
 }
 i.icon.instagram:before,
 i.icon.facebook:before,
-i.icon.github:before{
+i.icon.github:before,
+i.icon.linkedin:before{
    font-size: 30px;
 }
 .ui.card .content a {
@@ -247,6 +248,13 @@ i.icon.github:before{
 .ui.relaxed.divided.list {
     font-size: 1.3em;
 }
+
+/* grow images */
+img.grow:hover {
+    transform: scale(1.04);
+    transition: all 600ms;
+}
+
 
 @media only screen and (max-width: 976px) {
     .work-right {

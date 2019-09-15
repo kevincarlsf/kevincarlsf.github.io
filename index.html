@@ -14,21 +14,21 @@
 <!-- Following Menu -->
 <div class="ui large top fixed inverted hidden menu">
   <div class="ui container">
-    <a href="#sec-home" class="active item"><i class="icon home"></i> </a>
-    <a href="#sec-education" class="item"><i class="icon graduation cap"></i> </a>
-    <a href="#sec-skills" class="item"><i class="icon keyboard"></i> </a>
-    <a href="#sec-experience" class="item"><i class="icon building"></i> </a>
-    <a href="#sec-contact" class="item"><i class="icon user"></i> </a>
+    <a href="#sec-home" class="active item" title="Home"><i class="icon home"></i> </a>
+    <a href="#sec-education" class="item" title="Education"><i class="icon graduation cap"></i> </a>
+    <a href="#sec-skills" class="item" title="Skills"><i class="icon keyboard"></i> </a>
+    <a href="#sec-experience" class="item" title="Experience"><i class="icon building"></i> </a>
+    <a href="#sec-contact" class="item" title="Contact"><i class="icon user"></i> </a>
   </div>
 </div>
 
 <!-- Sidebar Menu -->
 <div class="ui vertical inverted thin sidebar menu">
-  <a href="#sec-home" class="active item"><i class="icon home"></i> Home</a>
-  <a href="#sec-education" class="item"><i class="icon graduation cap"></i> Education</a>
-  <a href="#sec-skills" class="item"><i class="icon keyboard"></i> Skills</a>
-  <a href="#sec-experience" class="item"><i class="icon building"></i> Experience</a>
-  <a href="#sec-contact" class="item"><i class="icon user"></i> Contact</a>
+  <a href="#sec-home" class="active item" title="Home"><i class="icon home"></i> Home</a>
+  <a href="#sec-education" class="item" title="Education"><i class="icon graduation cap"></i> Education</a>
+  <a href="#sec-skills" class="item" title="Skills"><i class="icon keyboard"></i> Skills</a>
+  <a href="#sec-experience" class="item" title="Experience"><i class="icon building"></i> Experience</a>
+  <a href="#sec-contact" class="item" title="Contact"><i class="icon user"></i> Contact</a>
 </div>
 
 
@@ -42,11 +42,11 @@
         <a class="toc item">
           <i class="sidebar icon"></i>
         </a>
-        <a href="#sec-home" class="active item"><i class="icon home"></i> Home</a>
-        <a href="#sec-education" class="item"><i class="icon graduation cap"></i> Education</a>
-        <a href="#sec-skills" class="item"><i class="icon keyboard"></i> Skills</a>
-        <a href="#sec-experience" class="item"><i class="icon building"></i> Experience</a>
-        <a href="#sec-contact" class="item"><i class="icon user"></i> Contact</a>
+        <a href="#sec-home" class="active item" title="Home"><i class="icon home"></i> Home</a>
+        <a href="#sec-education" class="item" title="Education"><i class="icon graduation cap"></i> Education</a>
+        <a href="#sec-skills" class="item" title="Skills"><i class="icon keyboard"></i> Skills</a>
+        <a href="#sec-experience" class="item" title="Experience"><i class="icon building"></i> Experience</a>
+        <a href="#sec-contact" class="item" title="Contact"><i class="icon user"></i> Contact</a>
       </div>
     </div>
 
@@ -114,7 +114,6 @@
                 <li>Node.js</li>
                 <li>PHP</li>
                 <li>Wordpress</li>
-                <div id="sec-experience"></div>
                 </ul>
               </div> <!--skill back-->
           </div> <!--web-->
@@ -137,14 +136,14 @@
       </div> <!--container-->
     </div>  <!-- web sec-->
 
-    <div class="ui container">
+    <div class="ui container" id="sec-experience">
       <div class="experience sec">
         <h2 class="title"><i class="building icon"></i> Experience</h2>
 
         <div class="work-group">
           <div class="work-group-left">
             <div class="work-left">
-                <img src="./img/jala.png" height="130px" width="150px" alt="jala logo">
+                <a href="https://www.jaladesign.com.au/" target="_blank"><img class="grow" src="./img/jala.png" height="130px" width="150px" alt="jala logo"></a>
             </div>
             <div class="work-right">
               <p>Web Developer</p>
@@ -160,7 +159,7 @@
         <div class="work-group">
           <div class="work-group-left">
             <div class="work-left">
-                <img src="./img/ahp.png" height="130px" width="150px" alt="ahp logo">
+                <a href="https://www.ahpdentalmedical.com.au/" target="_blank"><img class="grow" src="./img/ahp.png" height="130px" width="150px" alt="ahp logo"></a>
             </div>
             <div class="work-right">
               <p>Warehouse Team Member</p>
@@ -176,7 +175,7 @@
         <div class="work-group">
           <div class="work-group-left">
             <div class="work-left">
-                <img src="./img/gengo.png" height="130px" width="150px" alt="gengo logo">
+                <a href="https://www.gengo.com/" target="_blank"><img class="grow" src="./img/gengo.png" height="130px" width="150px" alt="gengo logo"></a>
             </div>
             <div class="work-right">
               <p>Email Support Representative</p>
@@ -190,17 +189,16 @@
         <div class="work-group">
           <div class="work-group-left">
             <div class="work-left">
-                <img src="./img/att.png" height="130px" width="150px" alt="att logo">
+                <a href="https://www.att.com/" target="_blank"><img class="grow" src="./img/att.png" height="130px" width="150px" alt="att logo"></a>
             </div>
             <div class="work-right">
               <p>Technical Support Representative</p>
               <p>Sept 2014 - May 2015</p>
-              <div id="sec-contact"></div>
             </div>
           </div>
-          <div class="work-group-right">
-            <a class="ui button secondary huge" id="att-btn">View Responsibilities</a>
-          </div>
+            <div class="work-group-right">
+              <a class="ui button secondary huge" id="att-btn">View Responsibilities</a>
+            </div>
           </div>
       </div>
     </div>
@@ -212,16 +210,18 @@
                       <img src="./img/dpdp.jpg">
                   </div>
                   <div class="content">
-                      <p class="header">Kevin Carl David</p>
-                      <p><a href="tel:+61404552763"><i class="icon phone"></i>: 0404-552-763</a></p>
-                      <p><a href = "mailto: kevincarlsf@gmail.com"><i class="icon envelope"></i>: kevincarlsf@gmail.com</a></p>
-                      <i class="user house">I live in Sydney, Australia</i></br></br>
-                      <a href="https://www.instagram.com/kevincarldavid/" target="_blank"><i class="instagram icon"></i></a>
-                      <a href="https://www.facebook.com/kevincarldavid123" target="_blank"><i class="facebook icon"></i></a>
-                      <a href="https://github.com/kevincarld" target="_blank"><i class="github icon"></i></a>
+                    <p class="header">Kevin Carl David</p>
+                    <p><a href="tel:+61404552763"><i class="icon phone"></i>: 0404-552-763</a></p>
+                    <p><a href = "mailto: kevincarlsf@gmail.com"><i class="icon envelope"></i>: kevincarlsf@gmail.com</a></p>
+                    <i class="user house">I live in Sydney, Australia</i></br></br>
+                    <a href="https://www.instagram.com/kevincarldavid/" target="_blank"><i class="instagram icon"></i></a>
+                    <a href="https://www.facebook.com/kevincarldavid123" target="_blank"><i class="facebook icon"></i></a>
+                    <a href="https://github.com/kevincarld" target="_blank"><i class="github icon"></i></a>
+                    <a href="https://www.linkedin.com/in/kevincarldavid/" target="_blank"><i class="linkedin icon"></i></a>
                   </div>
                 </div>
             </div>
+            <!-- TODO: change to recent projects involved section -->
             <div class="contact-right">
               <p class="title">GET</p>
               <p class="title">CONNECTED</p>
@@ -339,27 +339,27 @@
             </div>
             <div class="item">
               <div class="content">
+                <p>> Implemented new functionalities within websites.</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="content">
+                <p>> Converted static HTML to WordPress and launched websites.</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="content">
+                <p>> Answered client queries and assisted them with updates where required.</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="content">
+                <p>> Assisted in training new hire.</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="content">
                 <p>> Updated word documents used for documenting internal processes.</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="content">
-                  <p>> Implemented new functionalities within websites.</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="content">
-                  <p>> Converted static codes to WordPress and launched websites</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="content">
-                  <p>> Answered client queries and assisted them with updates where required</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="content">
-                  <p>> Assisted in training new hire.</p>
               </div>
             </div>
           </div>
