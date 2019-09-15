@@ -23,6 +23,10 @@ $(document)
     .sidebar('attach events', '.toc.item')
   ;
 
+  $("#jala-btn").click(function(){
+    $('.modal-jala').modal('show');
+  });
+
   $("#att-btn").click(function(){
     $('.modal-att').modal('show');
   });
