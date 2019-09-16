@@ -7,7 +7,8 @@
     <link href="css/normalize.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.14/semantic.min.css"/>
     <link href="css/style.css" rel="stylesheet" type="text/css">
-    
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
 </head>
 
 <body>
@@ -203,33 +204,50 @@
       </div>
     </div>
         
-        <div class="contact-container sec" id="sec-contact">
-            <div class="contact contact-left">
-              <div class="ui card">
-                  <div class="image">
-                      <img src="./img/dpdp.jpg">
-                  </div>
-                  <div class="content">
-                    <p class="header">Kevin Carl David</p>
-                    <p><a href="tel:+61404552763"><i class="icon phone"></i>: 0404-552-763</a></p>
-                    <p><a href = "mailto: kevincarlsf@gmail.com"><i class="icon envelope"></i>: kevincarlsf@gmail.com</a></p>
-                    <i class="user house">I live in Sydney, Australia</i></br></br>
-                    <a href="https://github.com/kevincarld" target="_blank"><i class="github icon"></i></a>
-                    <a href="https://www.linkedin.com/in/kevincarldavid/" target="_blank"><i class="linkedin icon"></i></a>
-                  </div>
+      <div class="contact-container sec" id="sec-contact">
+          <div class="contact contact-left">
+            <div class="ui card">
+                <div class="image">
+                    <img src="./img/dpdp.jpg">
                 </div>
-            </div>
-            <!-- TODO: change to recent projects involved section, use slick carousel -->
-            <div class="contact-right">
-              <p class="title">GET</p>
-              <p class="title">CONNECTED</p>
-              <p class="title">WITH ME!</p>
-            </div>
-        </div>  <!--contact container-->
+                <div class="content">
+                  <p class="header">Kevin Carl David</p>
+                  <p><a href="tel:+61404552763"><i class="icon phone"></i>: 0404-552-763</a></p>
+                  <p><a href = "mailto: kevincarlsf@gmail.com"><i class="icon envelope"></i>: kevincarlsf@gmail.com</a></p>
+                  <i class="user house">I live in Sydney, Australia</i></br></br>
+                  <a href="https://github.com/kevincarld" target="_blank"><i class="github icon"></i></a>
+                  <a href="https://www.linkedin.com/in/kevincarldavid/" target="_blank"><i class="linkedin icon"></i></a>
+                </div>
+              </div>
+          </div>
+
+        <!-- SLICK SLIDER -->
+          <div class="contact-right">
+            <h2>Recent projects involved</h2>
+            <section class="center slider slicky">
+              <div class="slicky-item">
+                <img class="grow" src="img/fragilex_screenshot.png">
+                <p>Fragile X Association of Australia</p>
+              </div>
+
+              <div class="slicky-item">
+                <img class="grow" src="img/samag_screenshot.png">
+                <p>Sydney Arts Management Advisory Group</p>
+              </div>
+
+              <div class="slicky-item">
+                <img class="grow" src="img/camp_pro_screenshot.png">
+                <p>Camp Pro</p>
+              </div>
+
+            </section>
+          </div> <!--contact right-->
+      </div>  <!--contact container-->
+
       </div> <!--experience-->
     </div> <!--container-->
 
-
+    <!-- TODO: Create modals for projects involved in -->
     <!--MODALS -->
     <!-- att modal -->
     <div class="ui modal modal-att">
@@ -376,6 +394,7 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.14/semantic.min.js"></script>
+  <script src="js/slick.js" type="text/javascript" charset="utf-8"></script>
   <script src="js/script.js"></script>
 </body>
 </html>

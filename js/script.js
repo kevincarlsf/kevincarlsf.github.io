@@ -70,6 +70,17 @@ $(document)
       return false;
     });
 
-
+    $(".contact-right .center").slick({
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      speed: 500,
+      fade: true,
+      cssEase: 'linear',
+      autoplay: true,
+      autoplaySpeed: 3000,
+      dots: true,
+    });
+        
 })
 ;
