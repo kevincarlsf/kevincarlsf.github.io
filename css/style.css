@@ -323,6 +323,17 @@ img.grow:hover {
         margin-top: 10px;
         padding: 5px;
     }
+    
+    .contact-right .slick-arrow {
+        display: none!important;
+    }
+
+    .contact-right .slick-dots {
+        display: block!important;
+    }
+    .contact-right .slicky img {
+        opacity: 1;
+    }
 }
 
 /* tablet */
@@ -377,13 +388,6 @@ img.grow:hover {
     
     .sec.no-pad{
         padding:0;
-    }
-    .contact-right .slick-arrow {
-        display: none!important;
-    }
-
-    .contact-right .slick-dots {
-        display: block!important;
     }
 
 }
