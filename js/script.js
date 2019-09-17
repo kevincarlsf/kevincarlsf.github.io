@@ -23,20 +23,40 @@ $(document)
     .sidebar('attach events', '.toc.item')
   ;
 
-  $("#jala-btn").click(function(){
+  // Control for modals
+  $("#jala-btn").click(function(e){
+    e.preventDefault();
     $('.modal-jala').modal('show');
   });
 
-  $("#att-btn").click(function(){
+  $("#att-btn").click(function(e){
+    e.preventDefault();
     $('.modal-att').modal('show');
   });
  
-  $("#ahp-btn").click(function(){
+  $("#ahp-btn").click(function(e){
+    e.preventDefault();
     $('.modal-ahp').modal('show');
   });
  
-  $("#gengo-btn").click(function(){
+  $("#gengo-btn").click(function(e){
+    e.preventDefault();
     $('.modal-gengo').modal('show');
+  });
+
+  $("#samag-btn").click(function(e){
+    e.preventDefault();
+    $('.modal-samag').modal('show');
+  });
+
+  $("#fragilex-btn").click(function(e){
+    e.preventDefault();
+    $('.modal-fragilex').modal('show');
+  });
+
+  $("#campro-btn").click(function(e){
+    e.preventDefault();
+    $('.modal-campro').modal('show');
   });
 
   //call scrollspy

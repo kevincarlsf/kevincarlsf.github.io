@@ -152,7 +152,7 @@
             </div>
           </div>
           <div class="work-group-right">
-            <a class="ui button secondary huge" id="jala-btn">View Responsibilities</a>
+            <a href="#" class="ui button secondary huge" id="jala-btn">View Responsibilities</a>
           </div>
           <hr>
         </div>
@@ -168,7 +168,7 @@
             </div>
           </div>
           <div class="work-group-right">
-            <a class="ui button secondary huge" id="ahp-btn">View Responsibilities</a>
+            <a href="#" class="ui button secondary huge" id="ahp-btn">View Responsibilities</a>
           </div>
           <hr>
         </div>
@@ -184,7 +184,7 @@
             </div>
           </div>
           <div class="work-group-right">
-            <a class="ui button secondary huge" id="gengo-btn">View Responsibilities</a>
+            <a href="#" class="ui button secondary huge" id="gengo-btn">View Responsibilities</a>
           </div>
         </div>
         <div class="work-group">
@@ -198,7 +198,7 @@
             </div>
           </div>
             <div class="work-group-right">
-              <a class="ui button secondary huge" id="att-btn">View Responsibilities</a>
+              <a href="#" class="ui button secondary huge" id="att-btn">View Responsibilities</a>
             </div>
           </div>
       </div>
@@ -225,19 +225,26 @@
           <div class="contact-right">
             <h2>Recent projects involved</h2>
             <section class="center slider slicky">
+
               <div class="slicky-item">
-                <img class="grow" src="img/fragilex_screenshot.png">
-                <p>Fragile X Association of Australia</p>
+                <a href="#" id="fragilex-btn">
+                  <img class="grow" src="img/fragilex_screenshot.png">
+                </a>
+                <p><a href="https://www.fragilex.org.au/" target="_blank">Fragile X Association of Australia</a></p>
               </div>
 
               <div class="slicky-item">
-                <img class="grow" src="img/samag_screenshot.png">
-                <p>Sydney Arts Management Advisory Group</p>
+                <a href="#" id="samag-btn">
+                  <img class="grow" src="img/samag_screenshot.png">
+                </a>
+                <p><a href="https://www.samag.org/" target="_blank">Sydney Arts Management Advisory Group</a></p>
               </div>
 
               <div class="slicky-item">
-                <img class="grow" src="img/camp_pro_screenshot.png">
-                <p>Camp Pro</p>
+                <a href="#" id="campro-btn">
+                  <img class="grow" src="img/camp_pro_screenshot.png">
+                </a>
+                <p><a href="https://pacific-harbor-88469.herokuapp.com/campgrounds" target="_blank">Solo project - Camp Pro</a></p>
               </div>
 
             </section>
@@ -247,8 +254,134 @@
       </div> <!--experience-->
     </div> <!--container-->
 
-    <!-- TODO: Create modals for projects involved in -->
-    <!--MODALS -->
+
+
+
+
+    <!--MODALS START HERE -->
+
+    <!-- Modals for projects involved in -->
+    <!-- samag modal -->
+    <div class="ui modal modal-samag">
+        <div class="header">Major contributions to Jala Design</div>
+        <div class="content">
+            <div class="ui relaxed divided list">
+              <div class="item">
+                <div class="content">
+                    <p>> QA and browser testing.</p> 
+                </div>
+              </div>
+              <div class="item">
+                <div class="content">
+                    <p>> PHP conditions for Advanced Custom Fields.</p>
+                </div>
+              </div>
+              <div class="item">
+                <div class="content">
+                  <p>> Fixed grid and minor styling issues.</p>
+                </div>
+              </div>
+              <div class="item">
+                <div class="content">
+                    <p>> Completed checklist to launch website.</p>
+                </div>
+              </div>
+              <div class="item">
+                <div class="content">
+                    <p>> Assisted with monthly website maintenance procedures.</p>
+                </div>
+              </div>
+              <div class="right floated content">
+                <div class="ui button"><a href="https://www.samag.org/" target="_blank">See the website here.</a></div>
+              </div>
+            </div>
+        </div>
+        <div class="actions">
+          <div class="ui approve button">back</div>
+        </div>
+      </div>
+
+    <!-- fragilex modal -->
+    <div class="ui modal modal-fragilex">
+      <div class="header">Major contributions to Jala Design</div>
+      <div class="content">
+          <div class="ui relaxed divided list">
+            <div class="item">
+              <div class="content">
+                  <p>> Integrated contents.</p> 
+              </div>
+            </div>
+            <div class="item">
+              <div class="content">
+                  <p>> Set up custom post types and taxonomy based on data structure.</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="content">
+                <p>> WordPress integration for single post and archive templates.</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="content">
+                  <p>> Installed required plugins and provided support to the client.</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="content">
+                  <p>> Completed checklist for launching website and setup tools for website maintenance.</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="content">
+                  <p>> Assisted with quarterly website maintenance procedures.</p>
+              </div>
+            </div>
+            <div class="right floated content">
+              <div class="ui button"><a href="https://www.fragilex.org.au/" target="_blank">See the website here.</a></div>
+            </div>
+          </div>
+      </div>
+      <div class="actions">
+        <div class="ui approve button">back</div>
+      </div>
+    </div>
+
+    <!-- Campro modal -->
+    <div class="ui modal modal-campro">
+      <div class="header">Solo project for personal study</div>
+      <div class="content">
+          <div class="ui relaxed divided list">
+            <div class="item">
+              <div class="content">
+                  <p>> Learned NodeJS in the process of creating this web application.</p> 
+              </div>
+            </div>
+            <div class="item">
+              <div class="content">
+                  <p>> Setup database using MongoDB.</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="content">
+                <p>> Used Express framework and EJS for templating.</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="content">
+                  <p>> Launched website with Heroku.</p>
+              </div>
+            </div>
+            <div class="right floated content">
+              <div class="ui button"><a href="https://pacific-harbor-88469.herokuapp.com/campgrounds" target="_blank">See the web application here.</a></div>
+            </div>
+          </div>
+      </div>
+      <div class="actions">
+        <div class="ui approve button">back</div>
+      </div>
+    </div>
+
+
     <!-- att modal -->
     <div class="ui modal modal-att">
       <div class="header">Technical Support Representative @AT&T</div>

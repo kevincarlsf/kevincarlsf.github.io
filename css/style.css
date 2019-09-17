@@ -230,6 +230,7 @@ blockquote {
     border-radius: 0;
     margin-top: 0;
     margin-bottom:0;
+    background: rgba(0,0,0);
 }
 
 .instagram {
@@ -271,12 +272,33 @@ img.grow:hover {
     opacity: 1;
 }
 
+.contact-right .slick-dots li button:before {
+    font-size: 18px!important;
+}
+
 .contact-right .slicky-item p {
     margin-top: 15px;
 }
 
+.slicky-item a {
+    color: #e9e9e9;
+}
+
 .contact-right .slick-dots {
     display: none!important;
+}
+
+.contact-right button.slick-arrow {
+    z-index: 9999;
+}
+
+@media only screen and (min-width: 1710px) {
+    .contact-right .slick-next {
+        right: 6%!important;
+    }
+    .contact-right .slick-prev {
+        left: 4%!important;
+    }
 }
 
 @media only screen and (max-width: 1240px) {
@@ -363,7 +385,6 @@ img.grow:hover {
     .contact-right .slick-dots {
         display: block!important;
     }
-    /* TODO: Style dots */
 
 }
 
@@ -375,16 +396,11 @@ img.grow:hover {
     blockquote {
         font-size: 1em;
     }
-    .contact-right p{
-        display: inline;
-        font-size: 1.6em;
-    }
+
     h2.title.shadow {
         margin-bottom:0;
     }
-    .contact-right {
-        text-align: center;
-    }
+
     .skills-group {
         display: block;
     }
@@ -442,9 +458,7 @@ img.grow:hover {
         height:270px;
         width: 270px;
     }
-    .contact-right p{
-        font-size: 1.9em;
-    }
+
     .sec.no-pad{
         padding:0;
     }
