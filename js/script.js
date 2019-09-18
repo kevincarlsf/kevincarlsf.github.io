@@ -73,7 +73,7 @@ $(document)
     var current;
 
     for (var i = 0; i < sections.length; i++) {
-      if ( $('#'+sections[i]).offset().top <= $(window).scrollTop() ) {
+      if ( ($('#'+sections[i]).offset().top - 230) <= $(window).scrollTop() ) {
         current = sections[i];
       }
     }
