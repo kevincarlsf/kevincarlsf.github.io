@@ -59,6 +59,11 @@ $(document)
     $('.modal-campro').modal('show');
   });
 
+  $("#moreproj-btn").click(function(e){
+    e.preventDefault();
+    $('.modal-moreproj').modal('show');
+  });
+
   //call scrollspy
   $(window).scroll( function() {
     scrollSpy();
