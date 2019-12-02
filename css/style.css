@@ -266,6 +266,7 @@ img.grow:hover {
     transition: all 500ms;
     max-height: 482px;
     margin: 0 auto;
+    border-radius: .28571429rem;
 }
 
 .contact-right .slicky img:hover {

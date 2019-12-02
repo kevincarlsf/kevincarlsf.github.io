@@ -54,6 +54,16 @@ $(document)
     $('.modal-fragilex').modal('show');
   });
 
+  $("#ahmrc-btn").click(function(e){
+    e.preventDefault();
+    $('.modal-ahmrc').modal('show');
+  });
+
+  $("#aphf-btn").click(function(e){
+    e.preventDefault();
+    $('.modal-aphf').modal('show');
+  });
+
   $("#campro-btn").click(function(e){
     e.preventDefault();
     $('.modal-campro').modal('show');
