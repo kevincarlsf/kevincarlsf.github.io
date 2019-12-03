@@ -235,6 +235,7 @@ blockquote {
         -ms-flex:1;
             flex:1;
     flex-basis: 150px;
+    margin-top: 44px;
 }
 
 .contact-right p {
@@ -328,8 +329,12 @@ img.grow:hover {
         width: 100%;
     }
 
+    .contact-left {
+        margin-top: 0;
+    }
+
     .contact-right {
-        margin-bottom: 50px;
+        margin-bottom: 40px;
     }
 }
 
