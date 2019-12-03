@@ -235,12 +235,16 @@ blockquote {
         -ms-flex:1;
             flex:1;
     flex-basis: 150px;
-    margin-top: 44px;
+    margin-top: 80px;
 }
 
 .contact-right p {
     text-align: center;
     font-style: italic;
+}
+
+.contact-right h2 {
+    text-shadow: 0px 0px 2px #383838;
 }
 
 .ui.black.label{
@@ -283,11 +287,15 @@ img.grow:hover {
     width: 100%;
     min-width: 300px;
     max-width: 800px;
-    opacity: .75;
+    opacity: 1;
     transition: all 500ms;
     max-height: 482px;
     margin: 0 auto;
     border-radius: .28571429rem;
+}
+
+.slick-prev:before, .slick-next:before {
+    opacity: 1!important
 }
 
 .contact-right .slicky img:hover {
