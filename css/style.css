@@ -16,34 +16,48 @@
     height: 400px;
 }
 .gray-img {
-    background: url('../img/dp.jpg') center no-repeat;
+    background: url('../img/dp_bg.jpg') center no-repeat;
     /* filter: blur(3px); */
-    -webkit-filter:grayscale(55%);
-            filter:grayscale(55%);
-    height: 400px;
+    /* -webkit-filter:grayscale(55%);
+            filter:grayscale(55%); */
+    height: 300px;
     margin-top: 20px;
     padding: 30px;
+    background-size: cover;
+
 }
 
 .welcome-msg {
-    position: absolute;
-    top: 60%;
-    right: 17%;
-    text-align: left;
-    text-shadow: 1px 0px 7px rgba(0,0,0,0.8);
-
+    text-align: center;
+    margin-top: 3em;
 }
-.welcome h1 {
-    font-size: 3.2em;
-    margin: 0;
+.welcome-msg h1 {
+    font-size: 3em;
+    line-height: 1em;
+    margin-top: 18px;
+    margin-bottom: 10px;
 }
-.welcome h4 {
-    margin-bottom: 8px;
-    font-size: 1.4em;
+.welcome-msg h4 {
+    font-size: 1.2em;
 }
-.welcome p {
+.welcome-msg p {
     font-size: 1.1em;
 }
+
+.welcome .headshot-img {
+    position: absolute;
+    background: url(../img/dp-plain.jpg) center no-repeat;
+    background-size: cover;
+    bottom: -15px;
+    z-index: 333;
+    box-shadow: 0px 0px 30px 1px #1b1c1d;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    right: calc(50% - 125px);
+    border: 2px solid #fff;
+}
+
 .ui.segment.mission {
     margin-top: 50px;
     font-size: 20px;
@@ -327,7 +341,6 @@ img.grow:hover {
         font-size: 1.2em;
     }
     .ui.segment.mission {
-        margin-top: 10px;
         padding: 5px;
     }
     
@@ -348,6 +361,13 @@ img.grow:hover {
     .ui.fixed.menu {
         display: none !important;
     }
+
+    .welcome .headshot-img {
+        height: 200px;
+        width: 200px;
+        right: calc(50% - 100px);
+    }
+
     blockquote {
         margin: 15px;
     }
@@ -362,8 +382,8 @@ img.grow:hover {
         min-height: 350px;
     }
     div.ui.segment.mission {
-        margin-top:5px;
-        padding-top: 5px;
+        margin-top: 25px;
+        padding-top: 25px;
         padding-bottom: 20px;
     }
     .sec {
@@ -401,9 +421,6 @@ img.grow:hover {
 
 @media only screen and (max-width: 588px) {
     
-    .ui.segment.mission {
-        margin-top: 10px;
-    }
     blockquote {
         font-size: 1em;
     }
@@ -490,8 +507,7 @@ img.grow:hover {
 
 @media only screen and (min-width: 950px) {
     .gray-img {
-        background-size: cover;
-        height: 500px;
+        height: 350px;
     }
  
 }
